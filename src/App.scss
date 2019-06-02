@@ -387,14 +387,14 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(/img/wallet-buy-bg6.jpg) center no-repeat;
+    background: url(../../img/wallet-buy-bg6.jpg) center no-repeat;
     background-size: cover;
     align-items: center;
     margin-bottom: 52px;
 
     @media (max-width: 992px){
         padding: 0;
-        background: url(/img/mobile-header-bg.jpg) center no-repeat;
+        background: url(../../img/mobile-header-bg.jpg) center no-repeat;
         background-size: cover;
     }
 
@@ -402,7 +402,7 @@ a:hover{
         height: 300px;
         width: 23%;
         position: absolute;
-        background-image: url(/img/wallet-buy.webp);
+        background-image: url(../../img/wallet-buy.webp);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -682,16 +682,16 @@ a:hover{
             }
             
             &:nth-child(1){
-                @include _before_Hover('/img/promises.webp');
+                @include _before_Hover('../../img/promises.webp');
             }
             &:nth-child(2){
-                @include _before_Hover('/img/nutrrrino8888.webp');
+                @include _before_Hover('../../img/nutrrrino8888.webp');
             }
             &:nth-child(3){
-                @include _before_Hover('/img/hacker-arrest.webp');
+                @include _before_Hover('/../../img/hacker-arrest.webp');
             }
             &:nth-child(4){
-                @include _before_Hover('/img/derivatives.webp');
+                @include _before_Hover('../../img/derivatives.webp');
             }
             
         }
@@ -1059,7 +1059,7 @@ a:hover{
 }
 
 .pageFooter{
-    background: #191919 url('/img/b-tilt-5.png') right -275px no-repeat !important;
+    background: #191919 url('../../img/b-tilt-5.png') right -275px no-repeat !important;
     margin-top: 0.5em !important;
     padding-top: 2.0em !important;
     font-weight: 300 !important;
