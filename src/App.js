@@ -7,6 +7,8 @@ import './App.css';
 import './App.scss';
 
 
+
+
 let catsData = [
   {
       label:'Start here',
@@ -87,55 +89,55 @@ let catsData = [
 
 let psTileData = [
   {
-    img:"../../img/knowledge-icon.webp",
+    img:"./img/knowledge-icon.webp",
     h3:"Knowledge Base",
     p:"Questions? Learn more with our extensive library of Bitcoin resources",
     a:"Knowledge Base"
   },
     {
-      img:"../../img/developer-icon.webp",
+      img:"./img/developer-icon.webp",
       h3:"Developer Tools",
       p:"Want to build something? Check out our awesome BCH developer tools",
       a:"Developer Tools"
     },
       {
-        img:"../../img/wallet-icon.webp",
+        img:"./img/wallet-icon.webp",
         h3:"Bitcoin Wallet",
         p:"Need a wallet? Try our highly rated and free to use Bitcoin wallet",
         a:"Bitcoin.com Wallet"
       },
         {
-          img:"../../img/mining-icon.webp",
+          img:"./img/mining-icon.webp",
           h3:"Bitcoin Mining",
           p:"Looking to invest? Get a Bitcoin mining contract with us and earn Bitcoin passively",
           a:"Start Mining"
         },
           {
-            img:"../../img/games-icon.webp",
+            img:"./img/games-icon.webp",
             h3:"Bitcoin Games",
             p:"Feeling Lucky? Try your chances in a variety of games at our provable fair online casino",
             a:"Play Bitcoin Games"
           },
             {
-              img:"../../img/blockexplorer-icon.webp",
+              img:"./img/blockexplorer-icon.webp",
               h3:"Block Explorer",
               p:"Track your BCH or BTC transactions and addresses with our Block Explorer",
               a:"Block Explorer"
             },
               {
-                img:"../../img/charts-icon.webp",
+                img:"./img/charts-icon.webp",
                 h3:"Bitcoin Markets",
                 p:"Feeling analytical? Check out our detailed market data. Prices, transactions, and more",
                 a:"View Markets"
               },
                 {
-                  img:"../../img/buy-icon.webp",
+                  img:"./img/buy-icon.webp",
                   h3:"Buy Bitcoin",
                   p:"Looking to buy? Buy BCH or BTC directly from us quickly and securely",
                   a:"Buy Bitcoin"
                 },
                   {
-                    img:"../../img/tools-icon.webp",
+                    img:"./img/tools-icon.webp",
                     h3:"Bitcoin Tools",
                     p:"Make paper wallets, explore the blockchain, and much more with our suite of Bitcoin tools",
                     a:"Bitcoin Tools"
@@ -256,7 +258,7 @@ class App extends Component {
                   Wallets Created
                 </h4>
                 <div className="wallet-icons">
-                  <img src="../../img/wallet-icons.webp" alt="iOS, Android, Linux, Windows"/>
+                  <img src={require("./img/wallet-icons.webp")} alt="iOS, Android, Linux, Windows"/>
                 </div>
                 <a className="download-btn" href="#">Download for Free</a>
               </div>
@@ -266,7 +268,7 @@ class App extends Component {
                   <p>Purchase BCH or BTC</p>
                   <h4 className="buy-h4">Fast Processing • Use VISA or Mastercard</h4>
                   <div className="buy-icons">
-                    <img src="../../img/buy-icons.webp" alt="Visa, Masercard"/>
+                    <img src={require("./img/buy-icons.webp")} alt="Visa, Masercard"/>
                   </div>
                   <a className="buyCoinBt" href="#">Buy Bitcoin Now</a>
   
@@ -324,7 +326,7 @@ class App extends Component {
 
         <div className="bitCoinCash">
           <div className="bitCoinCashWrapper">
-            <img src="../../img/2-bitcoin-cash-logo-wt-large.webp"/>
+            <img src={require("./img/2-bitcoin-cash-logo-wt-large.webp")}/>
               <p>
                 In August of 2017 Bitcoin forked into two versions, Bitcoin Core (BTC) and Bitcoin Cash (BCH). The fork was a result of competing scaling solutions for the Bitcoin network.
                 <br/>
