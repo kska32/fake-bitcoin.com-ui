@@ -3,3 +3,4 @@
 *.scss linguist-language=ReactJS
 *.tsx linguist-language=ReactJS
 *.ts linguist-language=ReactJS
+*.html linguist-language=ReactJS
