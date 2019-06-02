@@ -1,17 +1,29 @@
 {
   "name": "www.bitcoin.com",
   "version": "0.1.0",
+  "homepage":"./",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "mobile-detect": "^1.4.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.85.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && xcopy \"./build\"  \"./docs\" /E /I /Y",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-nomaps":"echo GENERATE_SOURCEMAP=false>.env && react-scripts build && del .env"
   },
   "eslintConfig": {
     "extends": "react-app"
