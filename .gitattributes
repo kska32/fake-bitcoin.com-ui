@@ -1,0 +1,5 @@
+*.js linguist-language=ReactJS
+*.css linguist-language=ReactJS
+*.scss linguist-language=ReactJS
+*.tsx linguist-language=ReactJS
+*.ts linguist-language=ReactJS
