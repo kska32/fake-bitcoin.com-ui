@@ -3,6 +3,6 @@
 
 <p>
     <h2>
-    <a link="https://kska32.github.io/fake-bitcoin.com-ui/">⇨ bitcoin.com</a>
+    <a href="https://kska32.github.io/fake-bitcoin.com-ui/" target='_blank'>⇨ bitcoin.com</a>
     <h2>
 </p>
